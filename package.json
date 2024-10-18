@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://DarylNyd.github.io/todo-list-avanc-react-DarylNyd",
+  "homepage": "https://darylnyd.github.io/todo-list-avanc-react-DarylNyd",
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
