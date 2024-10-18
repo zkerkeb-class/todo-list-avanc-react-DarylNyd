@@ -1,0 +1,62 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  min-width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.check {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.completeBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+.ongoingBtn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.deleteBtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}

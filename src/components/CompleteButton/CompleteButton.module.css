@@ -1,0 +1,40 @@
+/* src/styles/CompleteButton.module.css */
+
+/* Common button styles */
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Style when task is not completed */
+.notCompleted {
+  background-color: #28a745; /* Solid green background */
+}
+
+/* Style when task is completed */
+.completed {
+  background-color: rgba(40, 167, 69, 0.5); /* Green with 50% opacity */
+}
+
+/* Icon styling for the tick mark */
+.checkIcon {
+  margin-left: 5px;
+}
+
+/* Add hover effect for both states */
+.button:hover {
+  background-color: rgba(
+    40,
+    167,
+    69,
+    0.7
+  ); /* Hover state with increased opacity */
+}

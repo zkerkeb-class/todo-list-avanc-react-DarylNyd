@@ -1,0 +1,19 @@
+/* src/styles/TodoList.module.css */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  list-style-type: none;
+  padding: 12px 15px;
+  border-radius: 5px;
+  background-color: rgba(195, 198, 238, 0.3);
+}
+
+.noTasks {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 20px;
+}
