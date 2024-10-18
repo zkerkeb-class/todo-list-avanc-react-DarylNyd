@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/todo-list-avanc-react-DarylNyd/static/css/main.d94b5ff1.css",
+    "main.js": "/todo-list-avanc-react-DarylNyd/static/js/main.ea3c129f.js",
+    "static/js/453.d12110d7.chunk.js": "/todo-list-avanc-react-DarylNyd/static/js/453.d12110d7.chunk.js",
+    "index.html": "/todo-list-avanc-react-DarylNyd/index.html",
+    "main.d94b5ff1.css.map": "/todo-list-avanc-react-DarylNyd/static/css/main.d94b5ff1.css.map",
+    "main.ea3c129f.js.map": "/todo-list-avanc-react-DarylNyd/static/js/main.ea3c129f.js.map",
+    "453.d12110d7.chunk.js.map": "/todo-list-avanc-react-DarylNyd/static/js/453.d12110d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d94b5ff1.css",
+    "static/js/main.ea3c129f.js"
+  ]
+}
